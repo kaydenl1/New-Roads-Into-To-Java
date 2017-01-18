@@ -1,19 +1,26 @@
 public class Card{
   
   //declaring the properties
-  private String color;
+  //private String color;
   private String suit;
   private char rank;
   
   //constructor - makes the object
-  
-  public Card(){
-    color = "red";
-    suit = "diamond";
-    rank = 'A';
+  //zero argument constructor
+ public Card(){
     
   }
   
+  
+  //loaded constructior
+  public Card(String newSuit, char newRank){
+    
+    //color = newColor;
+    suit = newSuit;
+    rank = newRank;
+    
+  }
+/*
   //the following are mutators
   //color
   public String getColor(){
@@ -23,6 +30,7 @@ public class Card{
   public void setColor(String newColor){
     color = newColor;
   }
+  */
   //suit
   public String getSuit(){
     return suit;
@@ -40,9 +48,10 @@ public class Card{
   
   //this prints out the object
   public String toString(){
-    return color + " " + suit + " " + rank;
+    return suit + " " + rank;
     
   }
   
 }
+
 //this is the end of the class

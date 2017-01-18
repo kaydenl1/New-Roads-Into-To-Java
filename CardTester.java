@@ -2,6 +2,23 @@ public class CardTester{
   
   public static void main(String[]args){
     
+   // Card card = new Card("red" , "Dimond" , '8');
+    
+      //System.out.println(card);
+    
+    RedCard rCard = new RedCard();
+     System.out.println(rCard);
+    
+    BlackCard bCard = new BlackCard();
+      
+    rCard.setSuit("dismonds");
+    rCard.setRank('9');
+      
+    bCard.setSuit("Spaids");
+    bCard.setRank('8');
+   
+      System.out.println(bCard);
+  /*
     //creating a card object
     Card c = new Card();
     
@@ -45,4 +62,8 @@ public class CardTester{
     
   }
   
+
+
+*/
+  }
 }
