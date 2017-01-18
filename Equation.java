@@ -52,7 +52,7 @@ public class Equation{
   
   
    public String toString(){
-    return variable1 + " " + equals + " " + opporator + " " + variable2 + " " + opporator + " " + number;
+    return variable1 + " " + equals + " " + variable2 + " " + opporator + " " + number;
   }
 
 }
