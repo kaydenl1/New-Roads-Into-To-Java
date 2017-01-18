@@ -7,12 +7,14 @@ public class CardTester{
       //System.out.println(card);
     
     RedCard rCard = new RedCard();
-     System.out.println(rCard);
+   
     
     BlackCard bCard = new BlackCard();
       
     rCard.setSuit("dismonds");
     rCard.setRank('9');
+    
+      System.out.println(rCard);
       
     bCard.setSuit("Spaids");
     bCard.setRank('8');
