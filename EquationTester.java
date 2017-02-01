@@ -4,13 +4,16 @@ public class EquationTester{
     
     Equation e = new Equation();
      
-    e.setOpporator('+');
-    e.setNumber(8);
-    e.setVariable2('x');
-    e.setVariable1('y');
-    e.setEquals('=');
+    e.addTerm(2, 'x', 4);
     
     System.out.println(e.toString());
+    
+    Inverse in = new Inverse();
+    
+    in.setE(e);
+      
+    System.out.println(in.getE().toString());
+    System.out.println(in.getInverse());
     
   }
 }
