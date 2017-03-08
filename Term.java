@@ -49,7 +49,7 @@ private int power;
     }
   
    public String toString(){
-      return opperator + " " + coefficient + " " + variable + " " + power + " ";
+      return opperator + "" + coefficient + "" + variable + "^" + power + " ";
     }
 
 

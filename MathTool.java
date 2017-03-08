@@ -6,6 +6,20 @@ public class MathTool{
   
    Scanner input = new Scanner(System.in);
 
+   System.out.println("                  ***************************");
+   System.out.println("                  *                         *");
+   System.out.println("                  *                         *");
+   System.out.println("                  *         INVERSES        *");
+   System.out.println("                  *                         *");
+   System.out.println("                  *                         *");
+   System.out.println("                  ***************************");
+    
+   System.out.println("                             Rules  ");
+   System.out.println("             -----------------------------------------");
+   System.out.println("     1. Enter as many terms as you want at your computers own risk  ");
+   System.out.println(" 2. Use only addition, subtraction, multiplication, and devision signes  ");
+   System.out.println("       ");
+   System.out.println("       ");
    System.out.println("This is the friendly math tool. Enter in the number of terms you want to use.");
   
    int numTerm = input.nextInt();
