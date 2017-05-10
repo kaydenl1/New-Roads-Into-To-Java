@@ -9,6 +9,9 @@ public class MathTool{
   
    Scanner input = new Scanner(System.in);
     //this is declaring the scanner is a input
+    
+   System.out.println(" ");
+   System.out.println("Hello user, this is my programing project. It finds the inverses of funcions");
 
    System.out.println("                  ***************************");
    System.out.println("                  *                         *");
@@ -39,6 +42,8 @@ public class MathTool{
     
     //this is creating a verable equation (makes a space in memory)
   
+    char opperator;
+    
   for(int i = 0; i < numTerm; i++){
     //this is saying to keep the loop running untill the game has outputed all of the terms
     
@@ -56,7 +61,7 @@ public class MathTool{
     //stores a number in the variable for power
     System.out.println("give the opperator");
     //instrustions to the user
-    char opperator = input.next().charAt(0);
+    opperator = input.next().charAt(0);
     //this stores the opperator to go in front of the term
     equation.addTerm(opperator, cof, var, pow);
     //this is telling the program how to organize each term
@@ -72,6 +77,14 @@ public class MathTool{
     
    // }
     
+    if (opperator == '+'){
+      opperator = '-';
+    }
+    if (opperator == '-'){
+      opperator = '+';
+    }
+    
+    System.out.println(" ");
     System.out.println(equation);
     //This line prints out the equation
     
